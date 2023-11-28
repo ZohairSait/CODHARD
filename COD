@@ -309,3 +309,87 @@ public class MD5Example {
         return sb.toString();
     }
 }
+
+
+
+
+
+
+
+
+
+
+VIVA PREPARATION
+
+1. **Data Encryption Standard (DES):**
+   - **Steps in DES:** DES involves initial permutation, multiple rounds of substitution and permutation, and a final permutation.
+   - **Key Length Limitation:** DES has a 56-bit key, considered a limitation due to vulnerability to brute-force attacks.
+   - **Confidentiality in DES:** DES ensures confidentiality through encryption of plaintext using the secret key.
+   - **Vulnerabilities:** Vulnerable to brute-force attacks due to its small key size.
+
+2. **Advanced Encryption Standard (AES):**
+   - **Key Length and Security:** AES has key lengths of 128, 192, or 256 bits, providing stronger security than DES.
+   - **Key Expansion in AES:** Key expansion involves transforming the original key into a key schedule used in each round.
+   - **AES for URL Encryption:** In a program, AES could encrypt URL parameters or content for secure transmission.
+   - **Advantages/Disadvantages:** AES offers strong security but may be computationally intensive.
+
+3. **RSA Algorithm:**
+   - **Key Components:** RSA involves public key, private key, and a modulus.
+   - **Web Communication:** RSA in HTML/JavaScript ensures secure data transmission by encrypting with the recipient's public key.
+   - **Key Generation:** Key generation involves selecting two large prime numbers and calculating public and private keys.
+   - **Strengths/Weaknesses:** Strength in secure key exchange, weakness in potential factorization attacks.
+
+4. **Diffie-Hellman Key Exchange:**
+   - **Secure Communication:** Diffie-Hellman enables secure communication by allowing parties to agree on a shared secret.
+   - **Public and Private Keys:** Parties have public and private keys; public keys are exchanged, and private keys are kept secret.
+   - **Role of Modular Arithmetic:** Modular arithmetic ensures efficient and secure computation in Diffie-Hellman.
+
+5. **Digital Signature Standard (DSS):**
+   - **DSS Operation:** DSS combines DSA with a hash function for creating and verifying digital signatures.
+   - **Purpose of Digital Signature:** Digital signatures ensure data integrity and authentication in secure communication.
+   - **Vulnerabilities:** Vulnerable to key compromise or lack of randomness in generating keys.
+
+6. **SHA-1 Algorithm:**
+   - **Message Digest Calculation:** SHA-1 involves message padding, processing in blocks, and logical operations to create a 160-bit hash.
+   - **Secure Hash Function Characteristics:** SHA-1 provides collision resistance and unpredictability.
+   - **Vulnerabilities:** Vulnerable to collision attacks; SHA-1 is considered insecure for cryptographic use.
+
+7. **Dictionary Attack Simulation:**
+   - **Simulation Method:** The program simulates a dictionary attack by trying a list of passwords and variations against a user account.
+   - **Password Strength Importance:** Strong passwords prevent dictionary attacks by making it computationally infeasible to guess.
+   - **Countermeasures:** Countermeasures include account lockouts, rate limiting, and using strong, unique passwords.
+
+8. **MD5 Algorithm:**
+   - **MD5 Steps:** MD5 involves message padding, processing in blocks, and bitwise operations to create a 128-bit hash.
+   - **Use Cases:** MD5 is commonly used for checksums and integrity verification in non-cryptographic applications.
+   - **Vulnerabilities:** Vulnerable to collision attacks; MD5 is considered insecure for cryptographic use.
+
+9. **Wireshark and UDP/TCP Communication:**
+   - **Wireshark Function:** Wireshark captures and analyzes packets in a network, providing insights into communication.
+   - **UDP/TCP Differences:** UDP is connectionless; TCP is connection-oriented. Differences include reliability and ordering of data.
+   - **Findings in Wireshark:** Analysis might reveal source/destination IP addresses, ports, and payload data.
+
+10. **Packet Sniffing with Wireshark:**
+    - **Packet Sniffing Definition:** Packet sniffing is the interception and analysis of network traffic.
+    - **Ethical Considerations:** Ethical concerns involve privacy; legal implications arise if used for malicious purposes.
+    - **Sensitive Information:** Sensitive information might include login credentials, personal data, or confidential communications.
+
+11. **Man-in-the-Middle Attack using ARP Poisoning:**
+    - **ARP Poisoning Concept:** ARP poisoning redirects network traffic through an attacker, enabling interception and modification.
+    - **Detection/Prevention:** Detection methods include ARP monitoring; prevention involves secure ARP protocols and monitoring tools.
+    - **Consequences:** Successful ARP poisoning allows unauthorized access, eavesdropping, and potential data manipulation.
+
+12. **Intrusion Detection System (IDS) using Snort:**
+    - **Snort Function:** Snort detects and alerts on suspicious activities in network traffic using predefined rules.
+    - **Key Features:** Features include rule-based detection, logging, and real-time alerts.
+    - **Challenges/Limitations:** Challenges include false positives; limitations include dependence on rule accuracy.
+
+13. **Firewall Configuration:**
+    - **Firewall Purpose:** A firewall controls incoming/outgoing network traffic, acting as a barrier between networks.
+    - **Types of Firewalls:** Types include stateful and stateless firewalls, proxy firewalls, and application layer firewalls.
+    - **Configuration Steps:** Configuration involves defining rules based on IP addresses, ports, and protocols.
+
+14. **VPN Configuration:**
+    - **VPN Definition and Purpose:** A VPN creates a secure tunnel over the internet for private communication.
+    - **Types and Advantages:** Types include IPSec, SSL VPNs; advantages include data encryption and anonymity.
+    - **Configuration Steps:** Configuration involves selecting a VPN type, defining encryption protocols, and setting up authentication methods.
